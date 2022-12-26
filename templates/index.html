@@ -12,15 +12,17 @@
         <th>id</th>
         <th>created_at</th>
       </tr>
-      {% for i in data %}
+      <!-- {% for i in data %} -->
       <tr>
-        <td>{{i.title}}</td>
-        <td>{{i.content}}</td>
-        <td>{{i.published}}</td>
-        <td>{{i.id}}</td>
-        <td>{{i.created_at}}</td>
+        <td>{{data.title}}</td>
+        <td>{{data.content}}</td>
+        <td>{{data.published}}</td>
+        <td>{{data.id}}</td>
+        <td>{{data.created_at}}</td>
       </tr>
-      {%endfor%}
+      <!-- {%endfor%} -->
     </table>
+
+    
    </body>
 </html>
